@@ -1,0 +1,23 @@
+.video-js .my-class {
+  background: rgba( 0, 0, 0, 0.6 );
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: .75s all;
+  transition: .75s all; 
+  z-index: 100;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.my-span {
+    background: red;
+    width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+}
